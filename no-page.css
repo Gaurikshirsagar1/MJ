@@ -1,12 +1,11 @@
-/* styles.css */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: pink;
-    background-image: url('Innocent.jpg');
+    background-image: url('sad.jpg');
     text-align: center;
+    
     
 }
 header {
@@ -14,22 +13,6 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
-}
-.container {
-    width: 80%; /* Adjust the width as needed */
-    margin: 0 auto; /* Sets the left and right margins to auto, effectively centering the container */
-    text-align: center; 
-    background-color:  pink;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 .explore-btn {
     padding: 10px 20px;
