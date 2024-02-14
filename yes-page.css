@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: pink;
-    background-image: url('lovesend.jpg');
+    
     text-align: center;
     
 }
@@ -12,4 +12,34 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+.container {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Sets the left and right margins to auto, effectively centering the container */
+    text-align: center; 
+    background-color:  pink;
+}
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+.container img {
+    display: block; /* Makes the image a block-level element */
+    margin: 0 auto; /* Centers the image horizontally within the container */
+    max-width: 100%; /* Ensures the image doesn't exceed the container width */
+}
+.explore-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(199, 33, 135, 0.5); /* Semi-transparent blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
